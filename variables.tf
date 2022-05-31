@@ -11,9 +11,9 @@ variable "instance_type" {
   default     = "t2.micro"
 }
 
-variable "instance_key" {
+/* variable "instance_key" {
   description = "this is the key to login ec2-instance"
   type        = string
   default     = "Docker-Key"
   sensitive   = true
-}
+} */
